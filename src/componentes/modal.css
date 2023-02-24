@@ -1,0 +1,46 @@
+.modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-container {
+    width: 500px;
+    height: 400px;
+    background: white;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100 , 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+
+.modal-title {
+    margin-bottom: 8px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.closeButton {
+    width: 36px;
+    height: 36px;
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    border: 0;
+}
+  
+.closeButton:hover,
+.closeButton:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
